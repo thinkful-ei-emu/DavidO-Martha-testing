@@ -9,5 +9,6 @@ describe('<Card />', () =>{
     ReactDOM.render(<Card title="Card1" content="Content of card" />, div);
   
     ReactDOM.unmountComponentAtNode(div);
+    console.log("hi")
   });
 });
