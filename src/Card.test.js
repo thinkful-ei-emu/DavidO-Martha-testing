@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactDOM from '.react-dom';
-import Card from '/.Card';
+import ReactDOM from 'react-dom';
+import Card from './Card.js';
 
 describe('<Card />', () =>{
   it('renders without crashing', ()=> {
