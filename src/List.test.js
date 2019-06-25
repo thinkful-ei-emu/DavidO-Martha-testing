@@ -1,13 +1,14 @@
-// import React from 'react';
-// import ReactDOM from '.react-dom';
-// import Card from '/.List';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import List from './List.js';
+import Card from './Card.js';
 
-// describe('<List />', () =>{
-//   it('renders without crashing', ()=> {
-//     const div = document.createElement('div');
+describe('<List />', () =>{
+  it('renders without crashing', ()=> {
+    const div = document.createElement('div');
   
-//     ReactDOM.render(<Card key="1" header="List1" cards="[card1, card2, card3]" />, div);
+    ReactDOM.render(<List header="List1" key="1" title="card title" content="content of card" />, div);
   
-//     ReactDOM.unmountComponentAtNode(div);
-//   });
-// });
+    ReactDOM.unmountComponentAtNode(div);
+  });
+});
